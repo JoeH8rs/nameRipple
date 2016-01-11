@@ -24,7 +24,7 @@ $scope.results.push(arr1[i] + arr2[j] + $scope.domainExt);
                 } console.log($scope.results);
           };  
             $(".search").click(function () {
-                $(".searchArea").animate({ "top": "-220px" }, "slow");
+                $(".searchArea").animate({ "top": "-120px" }, "slow");
             });
 
             $(".search").click(function () {

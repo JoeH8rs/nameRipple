@@ -33,27 +33,15 @@ $(document).ready(function () {
         var strength = .05 + Math.random() * .001;
         $el.ripples('drop', x, y, dropRadius, strength);
     }, 1500);
-
-
-
-    $(".search").click(function () {
-        $(".searchArea").animate({ "top": "-220px" }, "slow");
-    });
-
-
-
-    $(".search").click(function () {
-        $(".someText").hide(0).delay(800).fadeIn();
-    });
     
     
-    // $(document).ready(function () {
-    //     setTimeout(function () {
-    //         $(".backfade").animate({
-    //             "opacity": "0.55"
-    //         }, 4000);
-    //     }, 12000);
+    $(document).ready(function () {
+        setTimeout(function () {
+            $(".backfade").animate({
+                "opacity": "0.75"
+            }, 6000);
+        }, 12000);
 
-    // });
+    });
 
 });
