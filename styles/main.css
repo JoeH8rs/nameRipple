@@ -1,0 +1,114 @@
+* { margin: 0; padding: 0; }
+html {
+	height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+	background-image: url(/img/bg4.jpg);
+	background-size: cover;
+	height: 100%;
+	text-align: center;
+    
+}
+body:before {
+    font-family: 'Lato', sans-serif;
+	content: '';
+	/*display: inline-block;*/
+	vertical-align: middle;
+	height: 100%;
+}
+
+.menu {
+   width: 3vw;
+  
+   position: absolute;
+   font-size: 3em;
+   top: 25px;
+    right: 35px;
+ 
+}
+.searchArea {
+    top: 200px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+   background-size: cover;
+	height: 100%;
+	text-align: center; 
+}
+
+.serchCrit {
+    font-family: 'Lato', sans-serif;
+    background-color: floralwhite;
+    margin-top: 250px; outline: none; width: 20%; padding:.075vw; font-size: 3vw; border-style:solid; border-radius:1.6vw; border-width:.6vw; border-color:#990000; text-align:center;   } 
+		 .css-input:focus { outline:none; } 
+         
+         
+.domainPrefix {
+    font-family: 'Lato', sans-serif;
+    background-color: floralwhite;
+    outline: none; margin-right: 15px; width: 12%; padding:.08vw; font-size: 3vw; border-style:solid; border-radius:1.6vw; border-width:.6vw; border-color:#990000; text-align:center;   } 
+		 .css-input:focus { outline:none; } 
+         
+button {
+  outline: none;
+  
+  margin: 0 6px 0 2px;
+  background: #990000;
+  border: none;
+  -webkit-border-radius: 1.6vw;
+  -moz-border-radius: 1.6vw;
+  border-radius: 1.6vw;
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  font-size: 3vw;
+  padding: .5vw 2vw .7vw 2vw;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+button:hover {
+  background: #cd1515;
+
+  text-decoration: none;
+}
+.someText {
+    padding: 3vw 10vw 0 16vw;
+    font-size: 3vw;
+    color: lightgray;
+    text-align: left;
+    
+}
+
+.register {
+    padding: 3vw 16vw 0 6vw;
+    font-size: 3vw;
+    color: lightgray;
+    text-align: center;
+    
+}
+
+.buy {
+    font-size: 1.5vw;
+}
+
+.backfade {
+   display: block;
+    height: 100%;
+  margin: 0;
+  background-color: #000;
+  opacity: .5;
+}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{padding:10px 50px;overflow:hidden;word-break:normal;}
+.tg th{padding:10px 50px;overflow:hidden;word-break:normal;}
+
+ 
+  
+
+
+
+
