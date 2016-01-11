@@ -47,13 +47,13 @@ $(document).ready(function () {
     });
     
     
-    $(document).ready(function () {
-        setTimeout(function () {
-            $(".backfade").animate({
-                "opacity": "0.55"
-            }, 4000);
-        }, 12000);
+    // $(document).ready(function () {
+    //     setTimeout(function () {
+    //         $(".backfade").animate({
+    //             "opacity": "0.55"
+    //         }, 4000);
+    //     }, 12000);
 
-    });
+    // });
 
 });
