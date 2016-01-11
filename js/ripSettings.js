@@ -46,8 +46,8 @@ $(document).ready(function () {
     setTimeout(function () {        
             $(".backfade").animate({
                 "opacity": "0.95"
-            }, 10000);
-        }, 8000);
+            }, 4000);
+        }, 12000);
 
     });
 
