@@ -31,21 +31,26 @@ $(document).ready(function () {
         var y = Math.random() * $el.outerHeight();
         var dropRadius = 40;
         var strength = .05 + Math.random() * .001;
-
         $el.ripples('drop', x, y, dropRadius, strength);
     }, 1500);
+
+
 
     $(".search").click(function () {
         $(".searchArea").animate({ "top": "-220px" }, "slow");
     });
 
+
+
     $(".search").click(function () {
         $(".someText").hide(0).delay(800).fadeIn();
     });
-$(document).ready(function () {
-    setTimeout(function () {        
+    
+    
+    $(document).ready(function () {
+        setTimeout(function () {
             $(".backfade").animate({
-                "opacity": "0.95"
+                "opacity": "0.55"
             }, 4000);
         }, 12000);
 
