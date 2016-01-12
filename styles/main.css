@@ -7,7 +7,7 @@ body {
     font-family: 'Lato', sans-serif;
 	background-image: url(/img/bg4.jpg);
 	background-size: cover;
-	height: 99%;
+	height: 100%;
 	text-align: center;
     
 }
@@ -45,15 +45,15 @@ body:before {
 
 .serchCrit {
     font-family: 'Lato', sans-serif;
-    background-color: floralwhite;
-    margin-top: 150px; outline: none; width: 20%; padding:.075vw; font-size: 3vw; border-style:solid; border-radius:1.6vw; border-width:.6vw; border-color:#990000; text-align:center;   } 
+    background-color:#bbb;
+    margin-top: 150px; outline: none; width: 20%; padding:.075vw; font-size: 2vw; border-style:solid; border-radius:1vw; border-width:.53vw; border-color:#990000; text-align:center;   } 
 		 .css-input:focus { outline:none; } 
          
          
 .domainPrefix {
     font-family: 'Lato', sans-serif;
-    background-color: floralwhite;
-    outline: none; margin-right: 15px; width: 12%; padding:.08vw; font-size: 3vw; border-style:solid; border-radius:1.6vw; border-width:.6vw; border-color:#990000; text-align:center;   } 
+    background-color: #bbb;
+    outline: none; margin-right: 15px; width: 12%; padding:.08vw; font-size: 2vw; border-style:solid; border-radius:1vw; border-width:.53vw; border-color:#990000; text-align:center;   } 
 		 .css-input:focus { outline:none; } 
          
 button {
@@ -67,7 +67,7 @@ button {
   border-radius: 1.6vw;
   font-family: 'Lato', sans-serif;
   color: #000;
-  font-size: 3vw;
+  font-size: 2vw;
   padding: .5vw 2vw .7vw 2vw;
   text-decoration: none;
   cursor: pointer;
@@ -80,18 +80,26 @@ button:hover {
   text-decoration: none;
 }
 .someText {
-    padding: 3vw 10vw 0 16vw;
-    font-size: 3vw;
-    color: lightgray;
+    margin-top: 15px;
+    height: 80vh;
+    width: 100vw;
+    overflow: auto;
+    font-size: 2vw;
+    color: #bbb;
     text-align: left;
+    
     
 }
 
 .register {
-    padding: 3vw 16vw 0 6vw;
-    font-size: 3vw;
-    color: lightgray;
-    text-align: center;
+    
+    width: 30%;
+    height:1em;
+    display: inline-block;
+    padding: 1vw 1vw 0 1vw;
+    font-size: 2.5vw;
+    color: #bbb;
+    text-align: left;
     
 }
 

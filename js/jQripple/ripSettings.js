@@ -38,7 +38,7 @@ $(document).ready(function () {
     $(document).ready(function () {
         setTimeout(function () {
             $(".backfade").animate({
-                "opacity": "0.75"
+                "opacity": "0.85"
             }, 6000);
         }, 12000);
 

@@ -1,27 +1,32 @@
-
-<img class="menu" src='img/menu.svg'></a>
+<img class="menu" src='img/menu.svg'>
+</a>
 
 
 
 
 <div class="searchArea">
     <select ng-model="first" class="serchCrit">
+        <option value="" disabled selected>First Option</option>
         <option value="colors">Colors</option>
         <option value="names">Names</option>
         <option value="actionV">Action Verbs</option>
         <option value="living">Living</option>
-        <option value="c">Single Caricter</option>
+        <option value="c">Single Character</option>
+        
     </select>
     <select ng-model="second" class="serchCrit">
+        <option value="" disabled selected>Second Option</option>
         <option value="colors">Colors</option>
         <option value="names">Names</option>
         <option value="actionV">Action Verbs</option>
         <option value="living">Living</option>
-        <option value="c">Single Caricter</option>
+        <option value="c">Single Character</option>
+        <option value="ly">--ly</option>
     </select>
 
     <!--<button class="add">+</button>-->
     <select ng-model="domainExt" class="domainPrefix" value=".com">
+        <option value="" disabled selected>URL Ext</option>
         <option value=".com">.com</option>
         <option value=".net">.net</option>
         <option value=".edu">.edu</option>
@@ -37,18 +42,18 @@
 
 
 
-    <div class="someText" style="display: none;">
+    <div class="someMoreText" style="display: none;">
         <div id="log"></div>
     </div>
 
     <div class="someText" style="display: none;">
 
         <div class="register" ng-repeat="result in results track by $index">{{result}}</div>
-        
-        <div class="register">There are 632 more URLs.
+
+        <!--<div class="register">There are 632 more URLs.
             <br>
             <button class="reg">Register</button> now to search them all.
-        </div>
-        </div>
+        </div>-->
+    </div>
 
 </div>
