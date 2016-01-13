@@ -1,30 +1,45 @@
-
-
-
-
-
 <div class="searchArea">
     <select ng-model="first" class="serchCrit1">
         <option value="" disabled selected>First Option</option>
+        <option value="i">i</option>               
+        <option value="actionV">Regular Verbs</option>               
+        <option value="adjectives">Adjectives</option>   
+        <option value="animals">Animals</option>             
+        <option value="big">Big</option>             
         <option value="colors">Colors</option>
-        <option value="names">Names</option>
-        <option value="actionV">Action Verbs</option>
+        <option value="computer">Computer</option>
+        <option value="fish">Fish</option>        
+        <option value="food">Food</option>        
+        <option value="happy">Happy</option>        
+        <option value="insects">Insects</option>        
+        <option value="monsters">Monsters</option>        
+        <option value="namesFemale">Names Female</option>        
+        <option value="namesMale">Names Male</option>
         <option value="kitchen">Kitchen</option>
-        <option value="adjectives">Adjectives</option>
-        <option value="living">Living</option>
         <option value="c">Single Character</option>
-        
+
     </select>
     <select ng-model="second" class="serchCrit">
         <option value="" disabled selected>Second Option</option>
+        <option value="nothing">--BLANK</option> 
+        <option value="ly">--ly</option> 
+        <option value="actionV">Regular Verbs</option>               
+        <option value="adjectives">Adjectives</option>   
+        <option value="animals">Animals</option> 
+        <option value="big">Big</option>                                 
         <option value="colors">Colors</option>
-        <option value="names">Names</option>
-        <option value="actionV">Action Verbs</option>
+        <option value="computer">Computer</option>
+        
+        <option value="fish">Fish</option>        
+        <option value="food">Food</option>
+        <option value="happy">Happy</option>                
+        <option value="insects">Insects</option>
+        <option value="monsters">Monsters</option>        
+                                
+        <option value="namesFemale">Names Female</option>        
+        <option value="namesMale">Names Male</option>
         <option value="kitchen">Kitchen</option>
-        <option value="adjectives">Adjectives</option>        
-        <option value="living">Living</option>
         <option value="c">Single Character</option>
-        <option value="ly">--ly</option>
     </select>
 
     <!--<button class="add">+</button>-->
@@ -38,9 +53,9 @@
         <option value=".biz">.biz</option>
     </select>
     <button class="search" ng-click="addButton()">Search</button>
-    
+
     <br>
-    
+
     <div class="someMoreText" style="display: none;">
         <div id="log"></div>
     </div>

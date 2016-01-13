@@ -1,311 +1,113 @@
-var str = `A
-afford
-ATM
-auction
+var str = `abominable snowman
+angel
 B
-bailout
-balance
-bank
-bankrupt
-bankruptcy
-bargain
-bill
-bonds
-borrow
-bought
-budget
-business
-buy
+banshee
+basilisk
+beast
+behemoth
+bogey man
+brute
 C
-capital
-cash
-cent
-change
-cheap
-check
-collateral
-commodity
-compound
-coupon
-credit
-credit card
-currency
+centaur
+Cerberus (three-headed dog)
+changeling
+cherub
+chimera (Lion-goat-snake hybrid)
+colossus
+crone
+cyclops
 D
-debt
-defecit
-deposit
-depression
-dime
-discount
-diversify
-dividend
-dollar
-donate
-donation
-donor
-down payment
+demon
+devil
+djinn
+dragon
+dryad (tree nymph)
 E
-earn
-earnings
-economy
-economics
-economist
-equity
-estate
-Euro
-exchange
-expense
-expensive
+elf
 F
-finance
-financier
-fund
+fairy
+fiend
+fire-breathing dragon
+Frankenstein's monster
+freak
+G
+gargoyle
+genii
+ghost
+ghoul
+giant
+gnome
+Godzilla
+golum
+gorgon
+H
+hag
+harpy
+horror
+hydra
 I
-income
-interest
-invest
-investment
-investor
+imp
+J
+jinn
+K
+kelpie
 L
-lend
-lender
-loan
-loss
+lake spirit
+leprechaun
+leviathan
+little people
+Loch Ness monster
 M
-margin
-market
-money
-mortgage
+medusa
+merman
+mermaid
+monster
+mummy
 N
-nickel
-note
+Nessie
+nymph
 O
-outgo
-overdrawn
+ogre
+orc
 P
-pay
-payment
-pence
-penny
-percentage
-poor
-portfolio
-Pound
-profit
-purse
-Q
-quarter
+Pegasus
+phoenix
+polyphemus
 R
-rate
-rebate
-receipt
-recession
-rent
-reserve
-rich
-risk
+rain bird (Native American)
+raven spirit (Native American)
+ryu (Japanese dragon)
 S
-sale
-save
-savings
-security
-sell
-seller
-sold
-spend
-stocks
-surplus
-swap
+savage
+sea monster
+shapeshifter
+siren
+spirit
+sprite
+swamp monster
 T
-tax
-teller
-thrifty
-trade
-treasury
+titan
+tree nymph (dryad)
+troll
+U
+undead
+unicorn
 V
-value
-vault
+vampire
 W
-wallet
-wealth
-withdraw
+werewolf
+witch
+wretch
 Y
-yield
-More Word Lists
-Adjectives
-Adverbs
-Alliteration
-Amphibians
-Anagrams
-Animals
-Antonyms
-April Fool's Day
-Art
-Astronomy
-Autumn/Fall
-Backyard
-Baseball
-Bathroom
-Beach
-"Big"
-Birds
-Biomes
-Birthday
-Boats/Ships
-Bodies of Waters
-Body
-Buildings
-Business and Office
-Camping
-Carnivals and Fairs
-Car Parts
-Cars
-Castles, Kings, Queens
-Cats
-Chinese New Year
-Christmas (secular)
-Circus and Carnival
-Clothing
-Colors
-Columbus Day
-Compound Words
-Computers
-Constitution
-Conjunctions
-Containers
-Cooking Terms
-Cooking Tools
-Country Names
-Dance
-Dentist
-Desserts
-Dogs
-Doctors and Dentists
-Dolch Words
-Driving
-Duos
-Elections
-Elements
-Emotions and Feelings
-Energy
-Fall/Autumn
-Family
-Farm
-Fire Fighting
-Fish
-Flowers
-Food
-Food Web
-Friends, Acquaintances, and Other People
-Fruit
-Furniture
-Geography
-Good Luck Symbols
-Grammar
-Groundhog Day
-Halloween
-Happiness
-"Happy" synonyms
-Hats
-Herbs and Spices
-Holidays
-House
-Household Devices
-Housing and Dwellings
-Insects
-Interjections
-Irregular Verbs
-Jobs and Occupations
-Kitchen
-Landforms
-Languages
-Leaders
-Legal Terms
-Long E Words
-Long U Words
-Mammals
-"Many"
-Martin Luther King, Jr.
-Math and Numbers
-Measurement
-Metals
-Military
-Money
-Monsters
-Mother's Day
-Musical Instruments
-Music Theory
-New Year's Eve
-Negative Words
-Nouns that are Verbs
-Ocean
-Office and Business
-Opposites
-Pairs
-Palindromes
-People (Non-Family)
-Personal Qualities
-Pirates
-Plants
-Positive Words
-Post Office
-Prepositions
-President's Day
-Pronouns
-Regular Verbs
-Reptiles
-Restaurant
-Roadways
-Rocks and Minerals
-Rooms
-"Said"
-School
-Science
-Science Fields
-Sewing
-Shapes
-Ships/Boats
-Shoes
-Spices and Herbs
-Sports
-Spring
-Stores and Public Buildings
-Summer
-St. Patrick's Day
-Thanksgiving
-Time
-Tools
-Transportation and Vehicles
-Trees
-Types of Cars
-US Constitution
-US Flag Day
-US States
-Vacation
-Valentine's Day
-Vegetables
-Vehicles and Transportation 
-Verbs
-Verbs, Irregular
-Verbs, Regular
-Verbs that are Nouns
-Virtues
-Water
-Ways to Say "Big"
-Ways to Say "Happy"
-Ways to Say "Many"
-Ways to Say "Said"
-Weapons
-Weather
-Weights and Measures
-Winter
-Yard`;
+yeti
+Z
+zombie`;
 
 str = str.replace(/(\r\n|\n|\r)/gm, ",");
 var arry = str.split(",");
 
 for (var i = 0; i< arry.length; i++) {
-    if (arry[i].length <= 1 || arry[i].indexOf(" ")>-1) {
+    if (arry[i].length <= 1 || arry[i].indexOf(" ")>-1 || arry[i].indexOf("-")>-1) {
         arry.splice(i, 1);
         i--;
     } else {     
@@ -315,7 +117,9 @@ for (var i = 0; i< arry.length; i++) {
 }
 
 
-    "['" + arry.join("','") + "']";
+"['" + arry.join("','") + "']";
+    
+    
 
 
 
