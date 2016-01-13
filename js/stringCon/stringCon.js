@@ -1,261 +1,324 @@
 var str = `A
-aluminum foil
-apron
+afford
+ATM
+auction
 B
-baking dish
-basket
-batter
-beater
-blender
-boil
-bottle
-bottle opener
-bowl
-bread basket
-broiler
-broom
-Bundt pan
-bun warmer
-butter dish
+bailout
+balance
+bank
+bankrupt
+bankruptcy
+bargain
+bill
+bonds
+borrow
+bought
+budget
+business
+buy
 C
-cabinet
-caddy
-cake pan
-cake stand
-can
-can opener
-carafe
-casserole
-cast iron pan
-china
-chop
-chopsticks
-cleanser
-coffee grinder
-coffee maker
-coffee mill
-colander
-cook
-cookbook
-cooker
-cookie cutter
-cookie sheet
-corn pick
-counter
-creamer
-crockpot
-cup
-cupboard
-custard cup
-cutlery
-cutting board
+capital
+cash
+cent
+change
+cheap
+check
+collateral
+commodity
+compound
+coupon
+credit
+credit card
+currency
 D
-decanter
-dish
-dish rack
-dish soap
-dish towel
-dishwasher
-dough
-Dutch oven
+debt
+defecit
+deposit
+depression
+dime
+discount
+diversify
+dividend
+dollar
+donate
+donation
+donor
+down payment
 E
-egg beater
-egg timer
-espresso machine
+earn
+earnings
+economy
+economics
+economist
+equity
+estate
+Euro
+exchange
+expense
+expensive
 F
-flatware
-flour sifter
-fondue set
-food
-food processor
-fork
-freezer
-fryer
-fruit bowl
-frying pan
-G
-garbage bag
-garbage can
-garbage compactor
-garbage disposal
-garlic press
-glasses
-grater
-gravy boat
-griddle
-grill
-grinder
-H
-honey dipper
-honey pot
-hot plate
+finance
+financier
+fund
 I
-ice box
-ice bucket
-ice cream maker
-ice cream scoop
-ice cube tray
-ice pick
-iron skillet
-island
-J
-jar
-jug
-juice glass
-juicer
-K
-kettle
-kitchen
-kitchen island
-knife
-knife sharpener
+income
+interest
+invest
+investment
+investor
 L
-ladle
-leftovers
-lid
+lend
+lender
+loan
+loss
 M
-marinate
-masher
-measuring cup
-measuring spoons
-meat grinder
-meat tenderizer
-meat thermometer
-microwave oven
-mixer
-mixing bowl
-mold
-mop
-mortar and pestle
-muffin pan
-mug
+margin
+market
+money
+mortgage
 N
-napkin
-nesting bowls
-nut cracker
-nut pick
+nickel
+note
 O
-opener
-oven
-oven mitt
+outgo
+overdrawn
 P
-pan
-paper towels
-pepper grinder
-pepper mill
-pepper shaker
-percolator
-pestle
-pie plate
-pitcher
-pizza cutter
-P cont.
-pizza pan
-pizza wheel
-placemat
-plastic bags
-plastic wrap
-plate
-platter
-popcorn popper
-pot
-potholder
-potato masher
-poultry shears
-pressure cooker
+pay
+payment
+pence
+penny
+percentage
+poor
+portfolio
+Pound
+profit
+purse
 Q
-quiche pan
+quarter
 R
-ramekin
-range
-reamer
-recipe
-refrigerator
-rice cooker
-roaster
-roasting pan
-rolling pin
+rate
+rebate
+receipt
+recession
+rent
+reserve
+rich
+risk
 S
-salad bowl
-salad spinner
-salt shaker
-sauce boat
-sauce pan
-saucer
-serving pieces
-serving platter
-shears
-shelves
-sieve
-sifter
-silverware
-sink
-skewers
-skillet
-slicer
-slow cooker
-soap
-soup bowl
-spatula
-spice jar
-spices
-sponge
-spoon
-S cont.
-steak knife
-steamer
-steel wool
-stew pot
-stove
-sugar bowl
-sugar sifter
+sale
+save
+savings
+security
+sell
+seller
+sold
+spend
+stocks
+surplus
+swap
 T
-table
-tablecloth
-tablespoon
-tea cup
-tea infuser
-teapot
-teaspoon
-thermometer
-timer
-tin
-toaster
-toaster oven
-tongs
-trash bags
-trash can
-tray
-trivet
-tumbler
-tureen
-U
-utensils
+tax
+teller
+thrifty
+trade
+treasury
 V
-vegetable bin
-vegetable brush
-vegetable peeler
+value
+vault
 W
-waffle iron
-waste basket
-waxed paper
-whip
-whisk
-whisk broom
-wok
+wallet
+wealth
+withdraw
 Y
-yogurt maker
-Z
-zester`;
+yield
+More Word Lists
+Adjectives
+Adverbs
+Alliteration
+Amphibians
+Anagrams
+Animals
+Antonyms
+April Fool's Day
+Art
+Astronomy
+Autumn/Fall
+Backyard
+Baseball
+Bathroom
+Beach
+"Big"
+Birds
+Biomes
+Birthday
+Boats/Ships
+Bodies of Waters
+Body
+Buildings
+Business and Office
+Camping
+Carnivals and Fairs
+Car Parts
+Cars
+Castles, Kings, Queens
+Cats
+Chinese New Year
+Christmas (secular)
+Circus and Carnival
+Clothing
+Colors
+Columbus Day
+Compound Words
+Computers
+Constitution
+Conjunctions
+Containers
+Cooking Terms
+Cooking Tools
+Country Names
+Dance
+Dentist
+Desserts
+Dogs
+Doctors and Dentists
+Dolch Words
+Driving
+Duos
+Elections
+Elements
+Emotions and Feelings
+Energy
+Fall/Autumn
+Family
+Farm
+Fire Fighting
+Fish
+Flowers
+Food
+Food Web
+Friends, Acquaintances, and Other People
+Fruit
+Furniture
+Geography
+Good Luck Symbols
+Grammar
+Groundhog Day
+Halloween
+Happiness
+"Happy" synonyms
+Hats
+Herbs and Spices
+Holidays
+House
+Household Devices
+Housing and Dwellings
+Insects
+Interjections
+Irregular Verbs
+Jobs and Occupations
+Kitchen
+Landforms
+Languages
+Leaders
+Legal Terms
+Long E Words
+Long U Words
+Mammals
+"Many"
+Martin Luther King, Jr.
+Math and Numbers
+Measurement
+Metals
+Military
+Money
+Monsters
+Mother's Day
+Musical Instruments
+Music Theory
+New Year's Eve
+Negative Words
+Nouns that are Verbs
+Ocean
+Office and Business
+Opposites
+Pairs
+Palindromes
+People (Non-Family)
+Personal Qualities
+Pirates
+Plants
+Positive Words
+Post Office
+Prepositions
+President's Day
+Pronouns
+Regular Verbs
+Reptiles
+Restaurant
+Roadways
+Rocks and Minerals
+Rooms
+"Said"
+School
+Science
+Science Fields
+Sewing
+Shapes
+Ships/Boats
+Shoes
+Spices and Herbs
+Sports
+Spring
+Stores and Public Buildings
+Summer
+St. Patrick's Day
+Thanksgiving
+Time
+Tools
+Transportation and Vehicles
+Trees
+Types of Cars
+US Constitution
+US Flag Day
+US States
+Vacation
+Valentine's Day
+Vegetables
+Vehicles and Transportation 
+Verbs
+Verbs, Irregular
+Verbs, Regular
+Verbs that are Nouns
+Virtues
+Water
+Ways to Say "Big"
+Ways to Say "Happy"
+Ways to Say "Many"
+Ways to Say "Said"
+Weapons
+Weather
+Weights and Measures
+Winter
+Yard`;
 
-var str = str.replace(/(\r\n|\n|\r)/gm, ",");
+str = str.replace(/(\r\n|\n|\r)/gm, ",");
+var arry = str.split(",");
 
-for (var i = 0; i< str.length; i++) {
-    if (str.charAt(i) === " ") {
-      str.replace(/^F0+/i, '');
-      
-  }
+for (var i = 0; i< arry.length; i++) {
+    if (arry[i].length <= 1 || arry[i].indexOf(" ")>-1) {
+        arry.splice(i, 1);
+        i--;
+    } else {     
+        arry[i] = arry[i][0].toUpperCase() + arry[i].slice(1, arry[i].length); 
+    }  
+    
 }
+
+
+    "['" + arry.join("','") + "']";
+
+
+
 
 
 
