@@ -41,7 +41,7 @@ body:before {
    position: absolute;
    z-index: 200;
    font-size: 3.2vw;
-   top: 87px;
+   top: 100px;
     right: -20vw;
     border-radius: 1vw;
    } 
