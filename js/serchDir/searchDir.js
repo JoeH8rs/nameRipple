@@ -40,7 +40,7 @@ angular.module('nameRipple').directive('words', function () {
                 var arr2 = wordSets[$scope.second];
                 var count = $scope.count;
                 var number = Number(count);
-             
+
                 for (var i = 0; i < arr1.length; i++) {
                     console.log(number, $scope.count);
                     for (var j = 0; j < arr2.length; j++) {
@@ -48,26 +48,38 @@ angular.module('nameRipple').directive('words', function () {
                         if ((arr1[i] + arr2[j]).length <= number) {
 
 
-                            $scope.firstResults.push(arr1[i] + arr2[j] + $scope.domainExt);
+                            $scope.firstResults.push(arr1[i] + arr2[j] + $scope.domainExt + " ");
                         }
 
                     }
                 }
+                
+                
 
                 for (var w = 0; w < $scope.firstResults.length && w < 1000; w++) {
                     var ranNum = Math.floor((Math.random() * $scope.firstResults.length) + 0);
                     $scope.results.push($scope.firstResults.splice(ranNum, 1)[0]);
                 }
-
+                // if (number < 9) {
+                            // $scope.document.getElementsByClassName('register').style.width = "20%";
+                            $scope("register").css("width", "10%");
+                //         };
 
             };
             $(".search").click(function () {
                 $(".searchArea").animate({ "top": "-120px" }, "slow");
             });
 
+
             $(".search").click(function () {
                 $(".someText").hide(0).delay(800).fadeIn();
             });
+          
+            
+                
+           
+                
+           
             
             // $(".search").click(function () {
             //     $(".register").animate({"color: #a2da95"}, "fast")

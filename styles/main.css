@@ -82,15 +82,15 @@ body:before {
 .searchCount {
     font-family: 'Lato', sans-serif;
     background-color:#bbb;
-    margin-top: 150px; outline: none; width: 4.5%; padding:.075vw; font-size: 2vw; border-style:solid; border-radius:1vw; border-width:.53vw; border-color:#990000; text-align:left;   } 
+    margin-top: 150px; outline: none; width: 14%; padding:.075vw; font-size: 2vw; border-style:solid; border-radius:1vw; border-width:.53vw; border-color:#990000; text-align:left;   } 
 		 .css-input:focus { outline:none; } 
          
          
 .domainPrefix {
     font-family: 'Lato', sans-serif;
     background-color: #bbb;
-    outline: none; margin-right: 15px; width: 12%; padding:.08vw; font-size: 2vw; border-style:solid; border-radius:1vw; border-width:.53vw; border-color:#990000; text-align:center;   } 
-		 .css-input:focus { outline:none; } 
+    outline: none; margin-right: 2px; width: 12%; padding:.08vw; font-size: 2vw; border-style:solid; border-radius:1vw; border-width:.53vw; border-color:#990000; text-align:center;   } 
+		 
          
 button {
   outline: none;
@@ -118,8 +118,9 @@ button:hover {
 .someText {
     margin-top: 15px;
     height: 80vh;
-    width: 100vw;
+    width: 70vw;
     overflow: auto;
+    padding: 0 20vw 0 8vw;
     font-size: 2vw;
     color: #bbb;
     text-align: left;
@@ -129,18 +130,14 @@ button:hover {
 
 .register {
     
-    width: 20%;
+    width: 15%;
     height:1em;
     display: inline-block;
-    padding: 1vw 1vw 0 1vw;
+    padding: 1vw 10vw 0 1vw;
     font-size: 2vw;
     color: #bbb;
     text-align: left;
     
-}
-
-.buy {
-    font-size: 1.5vw;
 }
 
 .backfade {
