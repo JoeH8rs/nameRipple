@@ -77,7 +77,12 @@ body:before {
 .serchCrit1 {
     font-family: 'Lato', sans-serif;
     background-color:#bbb;
-    margin-top: 150px; outline: none; width: 20%; padding:.075vw; font-size: 2vw; border-style:solid; border-radius:1vw; border-width:.53vw; border-color:#990000; text-align:center;   } 
+    margin-top: 150px; outline: none; width: 20%; padding:.075vw; font-size: 2vw; border-style:solid; border-radius:1vw; border-width:.53vw; border-color:#990000; text-align: right;   } 
+		 .css-input:focus { outline:none; } 
+.searchCount {
+    font-family: 'Lato', sans-serif;
+    background-color:#bbb;
+    margin-top: 150px; outline: none; width: 4.5%; padding:.075vw; font-size: 2vw; border-style:solid; border-radius:1vw; border-width:.53vw; border-color:#990000; text-align:left;   } 
 		 .css-input:focus { outline:none; } 
          
          
@@ -124,7 +129,7 @@ button:hover {
 
 .register {
     
-    width: 30%;
+    width: 20%;
     height:1em;
     display: inline-block;
     padding: 1vw 1vw 0 1vw;
