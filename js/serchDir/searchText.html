@@ -85,7 +85,7 @@
 
     <div class="someText" style="display: none;">
 
-        <div class="register" ng-repeat="result in results track by $index">{{result}}</div>
+        <div class="register" ng-repeat="result in results track by $index" ng-class="{col4: number < 8}">{{result}}</div>
 
         <!--<div class="register">There are 632 more URLs.
             <br>

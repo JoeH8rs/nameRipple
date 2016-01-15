@@ -40,13 +40,13 @@ angular.module('nameRipple').directive('words', function () {
                 var arr1 = wordSets[$scope.first];
                 var arr2 = wordSets[$scope.second];
                 var count = $scope.count;
-                var number = Number(count);
+                $scope.number = Number(count);
 
                 for (var i = 0; i < arr1.length; i++) {
-                    console.log(number, $scope.count);
+                    console.log($scope.number, $scope.count);
                     for (var j = 0; j < arr2.length; j++) {
                         
-                        if ((arr1[i] + arr2[j]).length <= number) {
+                        if ((arr1[i] + arr2[j]).length <= $scope.number) {
 
 
                             $scope.firstResults.push(arr1[i] + arr2[j] + $scope.domainExt + " ");

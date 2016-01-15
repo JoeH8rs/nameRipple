@@ -124,9 +124,12 @@ button:hover {
     font-size: 2vw;
     color: #bbb;
     text-align: left;
+    }
+  .register.col4 {
+    width: 7%;  
+  }  
     
-    
-}
+
 
 .register {
     
