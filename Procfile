@@ -1,1 +1,2 @@
-web: node views/index.ejs
+web: node server.js
+
